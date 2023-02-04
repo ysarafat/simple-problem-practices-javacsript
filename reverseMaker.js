@@ -1,8 +1,6 @@
 function reverseMaker(word){
-    // for (let i = 0 ; i < word.length; i++){
         let str = (word.split("").reverse().join(""))
-        console.log(str)
-    // }
-
+       return str;
 }
-const name = reverseMaker("tafarA risaeY")
+const name = reverseMaker("All the best my frieds")
+console.log(name);
